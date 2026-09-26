@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-primary: var(--primary);
+  --color-accent: var(--accent);
+  --color-text: var(--text);
+  --color-border: var(--border);
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --background: #FFFFFF;
+  --surface: #F8FAFC;
+  --primary: #2563EB;
+  --accent: #7C3AED;
+  --text: #111827;
+  --border: #E5E7EB;
+}
+
+.dark {
+  --background: #020617;
+  --surface: #0F172A;
+  --primary: #3B82F6;
+  --accent: #8B5CF6;
+  --text: #F8FAFC;
+  --border: #334155; /* Defaulting to something subtle for dark mode */
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-text font-sans antialiased;
+  }
+
+  h1 { @apply text-4xl font-extrabold tracking-tight lg:text-5xl; }
+  h2 { @apply text-3xl font-semibold tracking-tight transition-colors first:mt-0; }
+  h3 { @apply text-2xl font-semibold tracking-tight; }
+  p { @apply leading-7; }
+  .small-text { @apply text-sm font-medium leading-none; }
+}
+
+@layer utilities {
+  .safe-pt {
+    padding-top: env(safe-area-inset-top);
+  }
+  .safe-pb {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .safe-pl {
+    padding-left: env(safe-area-inset-left);
+  }
+  .safe-pr {
+    padding-right: env(safe-area-inset-right);
+  }
+}
+

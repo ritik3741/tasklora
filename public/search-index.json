@@ -1,0 +1,542 @@
+[
+  {
+    "title": "JSON Formatter",
+    "description": "Format and beautify your JSON data instantly with syntax highlighting.",
+    "url": "/developer/json-formatter",
+    "category": "Developer Tools",
+    "keywords": [
+      "json",
+      "formatter",
+      "developer tools"
+    ]
+  },
+  {
+    "title": "JSON Validator",
+    "description": "Validate your JSON code and find syntax errors quickly.",
+    "url": "/developer/json-validator",
+    "category": "Developer Tools",
+    "keywords": [
+      "json",
+      "validator",
+      "developer tools"
+    ]
+  },
+  {
+    "title": "Base64 Encoder",
+    "description": "Encode text or data to Base64 format securely in your browser.",
+    "url": "/developer/base64-encoder",
+    "category": "Developer Tools",
+    "keywords": [
+      "base64",
+      "encoder",
+      "developer tools"
+    ]
+  },
+  {
+    "title": "Base64 Decoder",
+    "description": "Decode Base64 strings back to their original text or binary format.",
+    "url": "/developer/base64-decoder",
+    "category": "Developer Tools",
+    "keywords": [
+      "base64",
+      "decoder",
+      "developer tools"
+    ]
+  },
+  {
+    "title": "UUID Generator",
+    "description": "Generate universally unique identifiers (UUIDs) version 4 instantly.",
+    "url": "/developer/uuid-generator",
+    "category": "Developer Tools",
+    "keywords": [
+      "uuid",
+      "generator",
+      "developer tools"
+    ]
+  },
+  {
+    "title": "JWT Decoder",
+    "description": "Decode JSON Web Tokens (JWT) to view their payload and header claims.",
+    "url": "/developer/jwt-decoder",
+    "category": "Developer Tools",
+    "keywords": [
+      "jwt",
+      "decoder",
+      "developer tools"
+    ]
+  },
+  {
+    "title": "SHA256 Generator",
+    "description": "Generate SHA-256 cryptographic hashes from text.",
+    "url": "/developer/sha256-generator",
+    "category": "Developer Tools",
+    "keywords": [
+      "sha256",
+      "generator",
+      "developer tools"
+    ]
+  },
+  {
+    "title": "URL Encoder",
+    "description": "Encode URL components safely.",
+    "url": "/developer/url-encoder",
+    "category": "Developer Tools",
+    "keywords": [
+      "url",
+      "encoder",
+      "developer tools"
+    ]
+  },
+  {
+    "title": "URL Decoder",
+    "description": "Decode URL-encoded strings back to text.",
+    "url": "/developer/url-decoder",
+    "category": "Developer Tools",
+    "keywords": [
+      "url",
+      "decoder",
+      "developer tools"
+    ]
+  },
+  {
+    "title": "Regex Tester",
+    "description": "Test and debug regular expressions with live highlighting.",
+    "url": "/developer/regex-tester",
+    "category": "Developer Tools",
+    "keywords": [
+      "regex",
+      "tester",
+      "developer tools"
+    ]
+  },
+  {
+    "title": "PDF Compressor",
+    "description": "Reduce PDF file size without losing quality.",
+    "url": "/pdf/pdf-compressor",
+    "category": "PDF Tools",
+    "keywords": [
+      "pdf",
+      "compressor",
+      "pdf tools"
+    ]
+  },
+  {
+    "title": "Merge PDF",
+    "description": "Combine multiple PDF files into one document.",
+    "url": "/pdf/merge-pdf",
+    "category": "PDF Tools",
+    "keywords": [
+      "merge",
+      "pdf",
+      "pdf tools"
+    ]
+  },
+  {
+    "title": "Split PDF",
+    "description": "Extract pages from your PDF or split it into pieces.",
+    "url": "/pdf/split-pdf",
+    "category": "PDF Tools",
+    "keywords": [
+      "split",
+      "pdf",
+      "pdf tools"
+    ]
+  },
+  {
+    "title": "Rotate PDF",
+    "description": "Rotate PDF pages 90°, 180°, or 270° instantly.",
+    "url": "/pdf/rotate-pdf",
+    "category": "PDF Tools",
+    "keywords": [
+      "rotate",
+      "pdf",
+      "pdf tools"
+    ]
+  },
+  {
+    "title": "Reorder Pages",
+    "description": "Drag and drop to reorder or delete PDF pages.",
+    "url": "/pdf/reorder-pages",
+    "category": "PDF Tools",
+    "keywords": [
+      "reorder",
+      "pages",
+      "pdf tools"
+    ]
+  },
+  {
+    "title": "Extract Pages",
+    "description": "Extract specific pages or ranges into a new PDF.",
+    "url": "/pdf/extract-pages",
+    "category": "PDF Tools",
+    "keywords": [
+      "extract",
+      "pages",
+      "pdf tools"
+    ]
+  },
+  {
+    "title": "Add Page Numbers",
+    "description": "Add customizable page numbers to your PDFs.",
+    "url": "/pdf/add-page-numbers",
+    "category": "PDF Tools",
+    "keywords": [
+      "add",
+      "page",
+      "numbers",
+      "pdf tools"
+    ]
+  },
+  {
+    "title": "PDF Metadata Editor",
+    "description": "Edit PDF properties like author, title, and keywords.",
+    "url": "/pdf/pdf-metadata-editor",
+    "category": "PDF Tools",
+    "keywords": [
+      "pdf",
+      "metadata",
+      "editor",
+      "pdf tools"
+    ]
+  },
+  {
+    "title": "Word Counter",
+    "description": "Count words, characters, sentences, and reading time.",
+    "url": "/text/word-counter",
+    "category": "Text Tools",
+    "keywords": [
+      "word",
+      "counter",
+      "text tools"
+    ]
+  },
+  {
+    "title": "Character Counter",
+    "description": "Track character limits, bytes, and spaces in real-time.",
+    "url": "/text/character-counter",
+    "category": "Text Tools",
+    "keywords": [
+      "character",
+      "counter",
+      "text tools"
+    ]
+  },
+  {
+    "title": "Case Converter",
+    "description": "Change text to UPPERCASE, lowercase, Title Case, etc.",
+    "url": "/text/case-converter",
+    "category": "Text Tools",
+    "keywords": [
+      "case",
+      "converter",
+      "text tools"
+    ]
+  },
+  {
+    "title": "Remove Duplicate Lines",
+    "description": "Clean up lists by removing repeated lines instantly.",
+    "url": "/text/remove-duplicate-lines",
+    "category": "Text Tools",
+    "keywords": [
+      "remove",
+      "duplicate",
+      "lines",
+      "text tools"
+    ]
+  },
+  {
+    "title": "Remove Extra Spaces",
+    "description": "Trim lines and normalize whitespace in your text.",
+    "url": "/text/remove-extra-spaces",
+    "category": "Text Tools",
+    "keywords": [
+      "remove",
+      "extra",
+      "spaces",
+      "text tools"
+    ]
+  },
+  {
+    "title": "Line Counter",
+    "description": "Count total lines, empty lines, and find the longest line.",
+    "url": "/text/line-counter",
+    "category": "Text Tools",
+    "keywords": [
+      "line",
+      "counter",
+      "text tools"
+    ]
+  },
+  {
+    "title": "Slug Generator",
+    "description": "Create SEO-friendly URL slugs from any text or title.",
+    "url": "/text/slug-generator",
+    "category": "Text Tools",
+    "keywords": [
+      "slug",
+      "generator",
+      "text tools"
+    ]
+  },
+  {
+    "title": "Reading Time Calculator",
+    "description": "Estimate reading and speaking time based on WPM.",
+    "url": "/text/reading-time-calculator",
+    "category": "Text Tools",
+    "keywords": [
+      "reading",
+      "time",
+      "calculator",
+      "text tools"
+    ]
+  },
+  {
+    "title": "Reverse Text",
+    "description": "Reverse characters, words, or sentences instantly.",
+    "url": "/text/reverse-text",
+    "category": "Text Tools",
+    "keywords": [
+      "reverse",
+      "text",
+      "text tools"
+    ]
+  },
+  {
+    "title": "Sort Lines",
+    "description": "Sort text alphabetically, numerically, or randomize.",
+    "url": "/text/sort-lines",
+    "category": "Text Tools",
+    "keywords": [
+      "sort",
+      "lines",
+      "text tools"
+    ]
+  },
+  {
+    "title": "GST Calculator",
+    "description": "Calculate GST exclusive and inclusive amounts instantly.",
+    "url": "/calculator/gst-calculator",
+    "category": "Calculator Tools",
+    "keywords": [
+      "gst",
+      "calculator",
+      "calculator tools"
+    ]
+  },
+  {
+    "title": "EMI Calculator",
+    "description": "Calculate monthly EMI and view loan repayment schedules.",
+    "url": "/calculator/emi-calculator",
+    "category": "Calculator Tools",
+    "keywords": [
+      "emi",
+      "calculator",
+      "calculator tools"
+    ]
+  },
+  {
+    "title": "SIP Calculator",
+    "description": "Calculate mutual fund SIP returns and wealth gained.",
+    "url": "/calculator/sip-calculator",
+    "category": "Calculator Tools",
+    "keywords": [
+      "sip",
+      "calculator",
+      "calculator tools"
+    ]
+  },
+  {
+    "title": "Age Calculator",
+    "description": "Calculate exact age in years, months, and days.",
+    "url": "/calculator/age-calculator",
+    "category": "Calculator Tools",
+    "keywords": [
+      "age",
+      "calculator",
+      "calculator tools"
+    ]
+  },
+  {
+    "title": "Percentage Calculator",
+    "description": "Find percentages, increases, and decreases instantly.",
+    "url": "/calculator/percentage-calculator",
+    "category": "Calculator Tools",
+    "keywords": [
+      "percentage",
+      "calculator",
+      "calculator tools"
+    ]
+  },
+  {
+    "title": "BMI Calculator",
+    "description": "Calculate Body Mass Index and find your ideal weight.",
+    "url": "/calculator/bmi-calculator",
+    "category": "Calculator Tools",
+    "keywords": [
+      "bmi",
+      "calculator",
+      "calculator tools"
+    ]
+  },
+  {
+    "title": "Discount Calculator",
+    "description": "Calculate final price after discounts and taxes.",
+    "url": "/calculator/discount-calculator",
+    "category": "Calculator Tools",
+    "keywords": [
+      "discount",
+      "calculator",
+      "calculator tools"
+    ]
+  },
+  {
+    "title": "Loan Calculator",
+    "description": "Estimate loan costs, monthly payments, and total interest.",
+    "url": "/calculator/loan-calculator",
+    "category": "Calculator Tools",
+    "keywords": [
+      "loan",
+      "calculator",
+      "calculator tools"
+    ]
+  },
+  {
+    "title": "Compound Interest",
+    "description": "Calculate future value with compound interest.",
+    "url": "/calculator/compound-interest-calculator",
+    "category": "Calculator Tools",
+    "keywords": [
+      "compound",
+      "interest",
+      "calculator tools"
+    ]
+  },
+  {
+    "title": "Currency Converter",
+    "description": "Offline converter with customizable exchange rates.",
+    "url": "/calculator/currency-converter",
+    "category": "Calculator Tools",
+    "keywords": [
+      "currency",
+      "converter",
+      "calculator tools"
+    ]
+  },
+  {
+    "title": "Meta Tag Generator",
+    "description": "Generate comprehensive HTML meta tags for your website.",
+    "url": "/seo/meta-tag-generator",
+    "category": "SEO Tools",
+    "keywords": [
+      "meta",
+      "tag",
+      "generator",
+      "seo tools"
+    ]
+  },
+  {
+    "title": "Open Graph Generator",
+    "description": "Create Facebook and social media Open Graph tags.",
+    "url": "/seo/open-graph-generator",
+    "category": "SEO Tools",
+    "keywords": [
+      "open",
+      "graph",
+      "generator",
+      "seo tools"
+    ]
+  },
+  {
+    "title": "Twitter Card Generator",
+    "description": "Design customized Twitter preview cards.",
+    "url": "/seo/twitter-card-generator",
+    "category": "SEO Tools",
+    "keywords": [
+      "twitter",
+      "card",
+      "generator",
+      "seo tools"
+    ]
+  },
+  {
+    "title": "Robots.txt Generator",
+    "description": "Create valid robots.txt files for search engine crawlers.",
+    "url": "/seo/robots-generator",
+    "category": "SEO Tools",
+    "keywords": [
+      "robots.txt",
+      "generator",
+      "seo tools"
+    ]
+  },
+  {
+    "title": "XML Sitemap Generator",
+    "description": "Generate valid XML sitemaps for Google and Bing.",
+    "url": "/seo/sitemap-generator",
+    "category": "SEO Tools",
+    "keywords": [
+      "xml",
+      "sitemap",
+      "generator",
+      "seo tools"
+    ]
+  },
+  {
+    "title": "Canonical URL Generator",
+    "description": "Create canonical tags to prevent duplicate content.",
+    "url": "/seo/canonical-generator",
+    "category": "SEO Tools",
+    "keywords": [
+      "canonical",
+      "url",
+      "generator",
+      "seo tools"
+    ]
+  },
+  {
+    "title": "FAQ Schema Generator",
+    "description": "Generate valid JSON-LD schema for FAQ pages.",
+    "url": "/seo/faq-schema-generator",
+    "category": "SEO Tools",
+    "keywords": [
+      "faq",
+      "schema",
+      "generator",
+      "seo tools"
+    ]
+  },
+  {
+    "title": "Breadcrumb Schema",
+    "description": "Create BreadcrumbList schema for better navigation.",
+    "url": "/seo/breadcrumb-schema-generator",
+    "category": "SEO Tools",
+    "keywords": [
+      "breadcrumb",
+      "schema",
+      "seo tools"
+    ]
+  },
+  {
+    "title": "Keyword Density Checker",
+    "description": "Analyze keyword frequency and content density.",
+    "url": "/seo/keyword-density-checker",
+    "category": "SEO Tools",
+    "keywords": [
+      "keyword",
+      "density",
+      "checker",
+      "seo tools"
+    ]
+  },
+  {
+    "title": "Slug Generator",
+    "description": "Create SEO-friendly URL slugs from your titles.",
+    "url": "/seo/slug-generator",
+    "category": "SEO Tools",
+    "keywords": [
+      "slug",
+      "generator",
+      "seo tools"
+    ]
+  }
+]
