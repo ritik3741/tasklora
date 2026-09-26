@@ -7,6 +7,15 @@ import { DownloadButton } from '@/components/tools/DownloadButton';
 
 type SortOrder = "az" | "za" | "num-asc" | "num-desc" | "random";
 
+const shuffleArray = (array: string[]) => {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
+
 export function SortLinesClient() {
   const [input, setInput] = useState("");
   const [sortOrder, setSortOrder] = useState<SortOrder>("az");
@@ -33,13 +42,7 @@ export function SortLinesClient() {
     }
 
     if (sortOrder === "random") {
-      // Fisher-Yates shuffle
-      const shuffled = [...lines];
-      for (let i = shuffled.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-      }
-      return shuffled.join('\n');
+      return shuffleArray(lines).join('\n');
     }
 
     lines.sort((a, b) => {

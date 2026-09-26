@@ -32,7 +32,7 @@ export default function WordCounterClient() {
     if (!text.trim()) return [];
     const wordsArr = text.toLowerCase().match(/\b\w+\b/g) || [];
     const counts: Record<string, number> = {};
-    let total = wordsArr.length;
+    const total = wordsArr.length;
     if (total === 0) return [];
     
     wordsArr.forEach(w => { counts[w] = (counts[w] || 0) + 1; });

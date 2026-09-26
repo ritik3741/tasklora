@@ -17,7 +17,7 @@ function AdSenseUnit({
 }) {
   useEffect(() => {
     try {
-      // @ts-ignore
+      // @ts-expect-error
       (window.adsbygoogle = window.adsbygoogle || []).push({});
     } catch (e) {
       console.error("AdSense error", e);

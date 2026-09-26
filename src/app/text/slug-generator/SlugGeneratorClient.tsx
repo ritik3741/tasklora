@@ -10,11 +10,10 @@ const STOP_WORDS = new Set(['a', 'an', 'and', 'are', 'as', 'at', 'be', 'but', 'b
 
 export default function SlugGeneratorClient() {
   const [text, setText] = useState('');
-  const [slug, setSlug] = useState('');
   const [lowercase, setLowercase] = useState(true);
   const [removeStopWords, setRemoveStopWords] = useState(true);
-
-  useEffect(() => {
+  
+  const slug = React.useMemo(() => {
     let newSlug = text;
     if (lowercase) {
       newSlug = newSlug.toLowerCase();
@@ -29,8 +28,7 @@ export default function SlugGeneratorClient() {
       words = words.filter(word => !STOP_WORDS.has(word.toLowerCase()));
     }
 
-    newSlug = words.join('-');
-    setSlug(newSlug);
+    return words.join('-');
   }, [text, lowercase, removeStopWords]);
 
   return (

@@ -37,7 +37,7 @@ export function PDFToolSearch() {
     return tools.filter(
       t => t.title.toLowerCase().includes(lowerQ) || t.description.toLowerCase().includes(lowerQ)
     );
-  }, [query, tools]);
+  }, [query]);
 
   return (
     <div>

@@ -21,11 +21,7 @@ export function BMIClient() {
   const [healthyRange, setHealthyRange] = useState<string>("");
   const [color, setColor] = useState<string>("");
 
-  useEffect(() => {
-    calculateBMI();
-  }, [unit, heightCm, weightKg, heightFt, heightIn, weightLbs]);
-
-  const calculateBMI = () => {
+  const calculateBMI = React.useCallback(() => {
     let currentBmi = 0;
     let minWeight = 0;
     let maxWeight = 0;
@@ -78,7 +74,11 @@ export function BMIClient() {
       setHealthyRange("");
       setColor("");
     }
-  };
+  }, [unit, heightCm, weightKg, heightFt, heightIn, weightLbs]);
+
+  useEffect(() => {
+    calculateBMI();
+  }, [calculateBMI]);
 
   const getRotation = () => {
     // Range 15 to 35 for gauge mapping (15 = 0 deg, 35 = 180 deg)

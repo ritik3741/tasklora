@@ -14,7 +14,7 @@ export default function RemoveDuplicateLinesClient() {
 
   const handleRemoveDuplicates = () => {
     const lines = inputText.split('\n');
-    let uniqueLines: string[] = [];
+    const uniqueLines: string[] = [];
     let count = 0;
     
     if (preserveOrder) {

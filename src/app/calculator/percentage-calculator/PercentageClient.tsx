@@ -9,11 +9,7 @@ export function PercentageClient() {
   const [y, setY] = useState<number | string>("");
   const [result, setResult] = useState<string>("");
 
-  useEffect(() => {
-    calculate();
-  }, [mode, x, y]);
-
-  const calculate = () => {
+  const calculate = React.useCallback(() => {
     const numX = parseFloat(String(x));
     const numY = parseFloat(String(y));
 
@@ -49,7 +45,11 @@ export function PercentageClient() {
         }
       }
     }
-  };
+  }, [mode, x, y]);
+
+  useEffect(() => {
+    calculate();
+  }, [calculate]);
 
   return (
     <div className="bg-surface rounded-2xl shadow-sm border border-border p-6 md:p-8">
